@@ -1,0 +1,15 @@
+### GET request to example server
+GET http://localhost:3001/vehicles
+Content-Type: application/json
+
+###
+
+### POST request to example server
+POST http://localhost:3001/vehicles
+Content-Type: application/json
+
+{
+  "save": "true"
+}
+
+###

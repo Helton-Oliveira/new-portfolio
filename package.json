@@ -1,0 +1,11 @@
+{
+  "name": "vehicles-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "web:dev": "yarn workspace web dev",
+    "api:dev": "yarn workspace api start:dev"
+  }
+}
