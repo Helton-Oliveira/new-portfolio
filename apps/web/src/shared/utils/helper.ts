@@ -1,7 +1,6 @@
-import {bodyFont, titleFont, titleFontSecondary} from "@/fonts/fonts";
+import {bodyFont, titleFont} from "@/fonts/fonts";
 
 export const fonts = {
     title: titleFont.className,
     body: bodyFont.className,
-    secondaryTile: titleFontSecondary.className,
 };
