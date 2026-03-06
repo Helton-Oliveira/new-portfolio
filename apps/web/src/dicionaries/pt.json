@@ -1,0 +1,24 @@
+{
+  "navbar": {
+    "about": "Sobre mim",
+    "work": "Trabalhos",
+    "skills": "Habilidades",
+    "contact": "Contato",
+    "hireMe": "Contrate-me"
+  },
+  "hero": {
+    "freelanceStatus": "Disponível para freelance",
+    "phrase": "Mais do que escrever código. Construo produtos digitais ponta a ponta que resolvem problemas complexos, escalam negócios e entregam a melhor experiência ao usuário.",
+    "subTitle": "SOFTWARE ENGENEER & BUSINESS STRATEGIST"
+  },
+  "about": {
+    "title": "Traduzo ideias de negócio em produtos digitais de alto valor.",
+    "firstDescription": "Como desenvolvedor Full Stack, foco no software como ferramenta de viabilização de negócios. Acredito que a tecnologia só é bem-sucedida quando resolve problemas reais e materializa ideias de forma estratégica e escalável.",
+    "secondDescription": "No último ano, venho construindo aplicações robustas onde a lógica de back-end e a experiência do usuário convergem para a eficiência operacional. Minha abordagem garante que cada entrega técnica esteja rigorosamente alinhada à visão de negócio e ao impacto final do produto.",
+    "location": "Brasil, BR"
+  },
+  "button": {
+    "viewWork": "Ver trabalhos",
+    "getInTouch": "Entre em contato"
+  }
+}
