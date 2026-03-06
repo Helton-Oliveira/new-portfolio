@@ -3,6 +3,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import AppImage from "@/shared/components/ui/AppImage";
 import avatar from "@/assets/images/profile.png";
+import json from "@/dicionaries/pt.json";
 
 const stats = [
     {value: 5, suffix: '+', label: 'Years experience'},
@@ -98,7 +99,7 @@ export default function AboutSection() {
             <div className="max-w-7xl mx-auto px-6 md:px-12">
 
                 {/* Eyebrow */}
-                <p className="section-eyebrow font-dm mb-16 reveal">About</p>
+                <p className="section-eyebrow font-dm mb-16 reveal">{json.navbar.about}</p>
 
                 {/* Asymmetric two-column layout */}
                 <div className="grid md:grid-cols-12 gap-12 md:gap-16 items-start mb-24">
@@ -122,7 +123,10 @@ export default function AboutSection() {
                                 style={{borderRadius: '16px', minWidth: '160px'}}>
 
                                 <div className="font-fraunces font-black text-2xl"
-                                     style={{color: 'var(--text-primary)', letterSpacing: '-0.02em'}}>Paris, FR
+                                     style={{
+                                         color: 'var(--text-primary)',
+                                         letterSpacing: '-0.02em'
+                                     }}>{json.about.location}
                                 </div>
                                 <div className="font-dm text-xs mt-1" style={{
                                     color: 'rgba(26,26,26,0.45)',
@@ -139,15 +143,12 @@ export default function AboutSection() {
                         <h2
                             className="font-fraunces font-black mb-6 reveal reveal-delay-1"
                             style={{
-                                fontSize: 'clamp(2.2rem, 4vw, 3.2rem)',
+                                fontSize: '3rem',
                                 lineHeight: '1.1',
                                 letterSpacing: '-0.03em',
                                 color: 'var(--text-primary)'
                             }}>
-
-                            I turn complex ideas into{' '}
-                            <span style={{color: 'var(--accent-primary)'}}>elegant</span>{' '}
-                            digital products.
+                            {json.about.title}
                         </h2>
                         <p
                             className="font-dm mb-6 reveal reveal-delay-2"
@@ -158,10 +159,7 @@ export default function AboutSection() {
                                 maxWidth: '520px'
                             }}>
 
-                            I'm a full-stack developer with 5+ years of experience building
-                            performant, beautiful web applications. I care deeply about the
-                            intersection of design and engineering — where pixel-perfect
-                            interfaces meet robust, scalable systems.
+                            {json.about.firstDescription}
                         </p>
                         <p
                             className="font-dm mb-10 reveal reveal-delay-3"
@@ -172,8 +170,7 @@ export default function AboutSection() {
                                 maxWidth: '520px'
                             }}>
 
-                            When I'm not coding, you'll find me exploring Parisian museums,
-                            shooting film photography, or obsessing over typeface specimens.
+                            {json.about.secondDescription}
                         </p>
 
                         {/* Stats */}

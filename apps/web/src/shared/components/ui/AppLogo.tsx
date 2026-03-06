@@ -37,7 +37,8 @@ function AppLogo({
             )}
 
             {/* Show text if provided */}
-            {text && <span className="text-lg font-bold">{text}</span>}
+            {text && <span
+                className="font-serif text-2xl italic font-light tracking-tight">{text}</span>}
         </div>
     );
 }

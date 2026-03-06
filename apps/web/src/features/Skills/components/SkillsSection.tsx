@@ -17,7 +17,7 @@ const skills: SkillTag[] = [
             top: '8%',
             left: '12%',
             background: 'var(--accent-primary-soft)',
-            color: '#7A4A46',
+            color: 'var(--accent-primary)',
             border: '1px solid rgba(201,164,160,0.3)'
         }
     },
@@ -39,7 +39,7 @@ const skills: SkillTag[] = [
             top: '18%',
             left: '62%',
             background: 'var(--accent-primary-soft)',
-            color: '#7A4A46',
+            color: 'var(--accent-primary)',
             border: '1px solid rgba(201,164,160,0.3)'
         }
     },
@@ -50,7 +50,7 @@ const skills: SkillTag[] = [
             top: '28%',
             left: '5%',
             background: 'var(--accent-primary-soft)',
-            color: '#7A4A46',
+            color: 'var(--accent-primary)',
             border: '1px solid rgba(201,164,160,0.3)'
         }
     },

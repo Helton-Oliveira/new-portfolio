@@ -23,12 +23,26 @@ export const metadata: Metadata = {
             {
                 url: "/dark-logo.ico",
                 media: "(prefers-color-scheme: light)",
+                sizes: "180x180"
             },
             {
                 url: "/light-logo.ico",
                 media: "(prefers-color-scheme: dark)",
+                sizes: "192x192"
             },
         ],
+        apple: [
+            {
+                url: "/dark-logo.ico",
+                media: "(prefers-color-scheme: dark)",
+                sizes: "180x180"
+            },
+            {
+                url: "/light-logo.ico",
+                media: "(prefers-color-scheme: light)",
+                sizes: "180x180"
+            },
+        ]
     },
 };
 

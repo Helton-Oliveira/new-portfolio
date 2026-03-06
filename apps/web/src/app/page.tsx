@@ -26,8 +26,8 @@ export default function Home() {
             <main>
                 <HeroSection/>
                 <AboutSection/>
-                <SkillsSection/>
                 <ProjectsSection/>
+                <SkillsSection/>
             </main>
         </>
     );

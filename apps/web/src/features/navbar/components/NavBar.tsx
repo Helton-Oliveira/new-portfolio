@@ -6,12 +6,13 @@ import AppLogo from "@/shared/components/ui/AppLogo";
 import darkLogo from "@/assets/images/dark-logo.svg";
 import lightLogo from "@/assets/images/light-logo.svg";
 import {useTheme} from "next-themes";
+import json from "@/dicionaries/pt.json";
 
 const navLinks = [
-    {label: 'About', href: '#about'},
-    {label: 'Work', href: '#projects'},
-    {label: 'Skills', href: '#skills'},
-    {label: 'Contact', href: '#contact'},
+    {label: json.navbar.about, href: '#about'},
+    {label: json.navbar.work, href: '#projects'},
+    {label: json.navbar.skills, href: '#skills'},
+    {label: json.navbar.contact, href: '#contact'},
 ];
 
 export default function NavBar() {
@@ -34,7 +35,7 @@ export default function NavBar() {
             <div className="max-w-7xl mx-auto px-6 md:px-12 h-full flex items-center justify-between">
                 {/* Logo dark */}
                 <AppLogo
-                    text="Helton Oliveira"
+                    text="HELTON OLIVEIRA"
                     size={70}
                     className={`${fonts.title} ${theme === "dark" ? 'font-black' : 'font-white'}`}
                     src={theme === "dark" ? lightLogo : darkLogo}
@@ -56,13 +57,10 @@ export default function NavBar() {
                 </nav>
 
                 {/* CTA */}
-                <a
-                    href="mailto:hello@leamorin.fr"
-                    className="hidden md:flex btn-primary font-dm"
-                    style={{padding: '8px 20px', fontSize: '13px'}}
-                >
-                    Hire Me
-                </a>
+                <a href="mailto:hello@leamorin.fr"
+                   className="hidden md:flex btn-primary font-dm"
+                   style={{padding: '8px 20px', fontSize: '13px'}}
+                > {json.navbar.hireMe} </a>
 
                 {/* Mobile menu button */}
                 <button
