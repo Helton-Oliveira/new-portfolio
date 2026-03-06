@@ -6,8 +6,8 @@
 :root {
     --bg-primary: #F2F0EC;
     --text-primary: #0F0F0F;
-    --accent-primary: #9C6B3F;
-    --accent-primary-soft: #E6DCD2;
+    --accent-primary: #082f49;
+    --accent-primary-soft: #CBD5E1;
     --accent-secondary: #3F5E55;
     --accent-secondary-soft: #E4EBE8;
     --accent-tertiary: #B89C78;
@@ -17,7 +17,7 @@
     --glass-bg: rgba(255, 255, 255, 0.55);
     --glass-border: rgba(15, 15, 15, 0.08);
     --shadow-soft: 0 12px 60px rgba(0, 0, 0, 0.12);
-    --shadow-bloom: 0 25px 70px rgba(156, 107, 63, 0.25);
+    --shadow-bloom: 0 25px 70px rgba(30, 41, 59, 0.15);
 }
 
 /* ── Base ── */
